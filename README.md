@@ -1,1 +1,1 @@
-![Total Contributions](https://github-readme-streak-stats.herokuapp.com/?user=LiamSwayne)
+My total contributions: [![GitHub contributions](https://github-readme-stats.vercel.app/api?username=LiamSwayne&show_icons=true&count_all=true&include_all_commits=true)](https://github.com/LiamSwayne)
