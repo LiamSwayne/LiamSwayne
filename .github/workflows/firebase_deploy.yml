@@ -17,3 +17,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIAM_SWAYNE }}'
           channelId: live
           projectId: liam-swayne
+          siteId: liamswayne
