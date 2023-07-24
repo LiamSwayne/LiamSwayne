@@ -4,6 +4,6 @@
   </a>
   <a href="https://github.com/LiamSwayne?tab=repositories&q=&type=&language=&sort=stargazers">
     <br>
-    <img width="100" src="https://img.shields.io/github/stars/LiamSwayne" alt="GitHub User's stars"/>
+    <img width="100" src="https://img.shields.io/github/stars/LiamSwayne?affiliations=OWNER&label=Stars&labelColor=%23210083&color=%233F0076" alt="GitHub User's stars"/>
   </a>
 </p>
