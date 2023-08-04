@@ -8,10 +8,6 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://protierlist.web.app">
-    <img width="200" src="https://github.com/LiamSwayne/LiamSwayne/raw/main/protierlist.svg" alt="My Sites"/>
-  </a>
-  <a href="https://convertcompress.web.app">
-    <img width="200" src="https://github.com/LiamSwayne/LiamSwayne/raw/main/convertcompress.svg" alt="My Sites"/>
-  </a>
+  <a href="https://protierlist.web.app"><img width="200" src="https://github.com/LiamSwayne/LiamSwayne/raw/main/protierlist.svg" alt="My Sites"/></a>
+  <a href="https://convertcompress.web.app"><img width="200" src="https://github.com/LiamSwayne/LiamSwayne/raw/main/convertcompress.svg" alt="My Sites"/></a>
 </p>
