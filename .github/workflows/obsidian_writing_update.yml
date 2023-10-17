@@ -27,6 +27,11 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
+      - name: Fill obsidian_info.txt
+        run: |
+          echo "Latest Obsidian commit: ${{ steps.commit_info.outputs.commit_date }}" > obsidian_info.txt
+          echo "Total Obsidian repository commits: ${{ steps.commit_info.outputs.commit_count }}" >> obsidian_info.txt
+
       - name: Create README content
         run: |
           echo "<p align='center'>" > README.md
