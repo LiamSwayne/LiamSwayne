@@ -17,7 +17,9 @@ jobs:
         id: commit_info
         run: |
           latest_commit_date=$(echo ${{ github.event.client_payload.commit_date }})
-          latest_commit_date_no_seconds=$(date -d "${latest_commit_date}" +'%Y/%m/%d %I:%M %p')
+          date_part=$(date -d "${latest_commit_date}" +'%Y/%m/%d')
+          time_part=$(date -d "${latest_commit_date}" +'%I:%M %p' | sed 's/^0//') # Remove leading zeros
+          latest_commit_date_no_seconds="${date_part} ${time_part}"
           commit_count=$(echo ${{ github.event.client_payload.commit_count }})
           echo "::set-output name=commit_date::$latest_commit_date_no_seconds"
           echo "::set-output name=commit_count::$commit_count"
