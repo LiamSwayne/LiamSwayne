@@ -1,4 +1,4 @@
-name: Mirror Commit
+name: Update Obsidian info
 
 on:
   repository_dispatch:
