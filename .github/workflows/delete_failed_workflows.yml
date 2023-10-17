@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          delete_run_by_conclusion_pattern: "failure"
+          delete_run_by_conclusion_pattern: failure
