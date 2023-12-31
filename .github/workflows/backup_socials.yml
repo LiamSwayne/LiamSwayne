@@ -1,4 +1,4 @@
-name: 6-hour Archive
+name: Socials backup
 
 on:
   schedule:
