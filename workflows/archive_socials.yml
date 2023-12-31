@@ -13,8 +13,9 @@ jobs:
     - name: Archive URLs
       run: |
         archival_urls=(
-          "https://en.uncyclopedia.co/wiki/Main_Page"
-          "https://arc.net/"
+          "https://www.youtube.com/@LiamSwayne"
+          "https://www.youtube.com/@NotLiamSwayne"
+          "https://nitter.net/NotLiamSwayne"
         )
 
         for url in "${archival_urls[@]}"; do
