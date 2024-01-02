@@ -14,7 +14,9 @@ jobs:
       run: |
         archival_urls=(
           "https://www.youtube.com/@LiamSwayne"
+          "https://www.youtube.com/@LiamSwayne?themeRefresh=1"
           "https://www.youtube.com/@NotLiamSwayne"
+          "https://www.youtube.com/@NotLiamSwayne?themeRefresh=1"
           "https://nitter.net/NotLiamSwayne"
         )
 
