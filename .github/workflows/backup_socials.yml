@@ -1,4 +1,4 @@
-name: Socials backup
+name: Remove completed content from subscriptions
 
 on:
   schedule:
