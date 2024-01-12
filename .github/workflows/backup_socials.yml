@@ -13,12 +13,8 @@ jobs:
     - name: Archive URLs
       run: |
         archival_urls=(
-          "https://www.youtube.com/@LiamSwayne"
-          "https://www.youtube.com/@LiamSwayne?themeRefresh=1"
-          "https://www.youtube.com/@NotLiamSwayne"
-          "https://www.youtube.com/@NotLiamSwayne?themeRefresh=1"
-          "https://twitter.com/NotLiamSwayne"
-          "https://nitter.net/NotLiamSwayne"
+          "https://twitter.com/TechLead"
+          "https://nitter.net/TechLead"
         )
 
         for url in "${archival_urls[@]}"; do
