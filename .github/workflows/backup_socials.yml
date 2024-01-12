@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Archive.is
       run: |
-        curl -sf https://gobinaries.com/wabarc/archive.is/cmd/archive.is | sh
+        go get github.com/wabarc/archive.is
         archive.is https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.17
     
     - name: Archive URLs
