@@ -1,4 +1,5 @@
 name: Remove completed content from subscriptions
+
 on:
   schedule:
     - cron: '0 */6 * * *'  # Run every 6 hours
@@ -9,18 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Archive.is
-      run: |
-        go mod init temp
-        go get github.com/wabarc/archive.is
-        find / -name archive.is
-        archive.is https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.17
-    
     - name: Archive URLs
       run: |
         archival_urls=(
-          "https://twitter.com/techleadhd"
-          "https://nitter.net/techleadhd"
+          "https://www.youtube.com/@LiamSwayne"
+          "https://www.youtube.com/@LiamSwayne?themeRefresh=1"
+          "https://www.youtube.com/@NotLiamSwayne"
+          "https://www.youtube.com/@NotLiamSwayne?themeRefresh=1"
+          "https://twitter.com/NotLiamSwayne"
+          "https://nitter.net/NotLiamSwayne"
         )
 
         for url in "${archival_urls[@]}"; do
