@@ -13,8 +13,8 @@ jobs:
     - name: Archive URLs
       run: |
         archival_urls=(
-          "https://twitter.com/TechLead"
-          "https://nitter.net/TechLead"
+          "https://twitter.com/techleadhd"
+          "https://nitter.net/techleadhd"
         )
 
         for url in "${archival_urls[@]}"; do
