@@ -13,12 +13,25 @@ jobs:
     - name: Archive URLs
       run: |
         archival_urls=(
-          "https://www.youtube.com/@LiamSwayne"
-          "https://www.youtube.com/@LiamSwayne?themeRefresh=1"
-          "https://www.youtube.com/@NotLiamSwayne"
-          "https://www.youtube.com/@NotLiamSwayne?themeRefresh=1"
-          "https://twitter.com/NotLiamSwayne"
-          "https://nitter.net/NotLiamSwayne"
+          "https://flixpatrol.com/top10/amazon-prime/united-states/"
+          "https://flixpatrol.com/top10/amazon-prime/"
+          "https://flixpatrol.com/top10/"
+          "https://flixpatrol.com/top10/netflix/united-states/"
+          "https://flixpatrol.com/top10/netflix/"
+          "https://flixpatrol.com/top10/hulu/united-states/"
+          "https://flixpatrol.com/top10/hulu/"
+          "https://flixpatrol.com/top10/paramount-plus/united-states/"
+          "https://flixpatrol.com/top10/paramount-plus/"
+          "https://flixpatrol.com/top10/disney/"
+          "https://flixpatrol.com/top10/disney/united-states/"
+          "https://flixpatrol.com/top10/apple-tv/"
+          "https://flixpatrol.com/top10/apple-tv/united-states/"
+          "https://flixpatrol.com/top10/amazon-prime/united-kingdom/"
+          "https://flixpatrol.com/top10/netflix/united-kingdom/"
+          "https://flixpatrol.com/top10/hulu/united-kingdom/"
+          "https://flixpatrol.com/top10/paramount-plus/united-kingdom/"
+          "https://flixpatrol.com/top10/disney/united-kingdom/"
+          "https://flixpatrol.com/top10/apple-tv/united-kingdom/"
         )
 
         for url in "${archival_urls[@]}"; do
