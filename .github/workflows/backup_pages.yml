@@ -1,5 +1,4 @@
-name: Remove completed content from subscriptions
-
+name: Backup
 on:
   schedule:
     - cron: '0 */6 * * *'  # Run every 6 hours
