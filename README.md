@@ -13,5 +13,5 @@
 </p>
 
 <p align='center'>
-  <a href='https://convertcompress.web.app'>RRS Ranker</a>
+  <a href='https://rssranker.pages.dev'>RRS Ranker</a>
 </p>
